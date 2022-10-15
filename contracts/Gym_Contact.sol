@@ -52,7 +52,7 @@ contract gym {
 
     //Funciones del Usuario:
     function register(address _address, uint _credits) public {
-        //require(_address == ADMIN, "Eres el Administrador"); //NO FUNCIONA, deja registrar al admin
+        require(msg.sender != ADMIN, "Eres el Administrador"); //NO FUNCIONA, deja registrar al admin
         require(users[msg.sender] == 0, "Ya te encuentras registrado en el gym");
         users[msg.sender] = _credits;
         emit Register(_address, _credits); //El usuario elige cuantos creditos desea adquirir
@@ -70,6 +70,7 @@ contract gym {
 
     function takeClass(uint _index) public {
         Class storage clase = class[_index];
+        require(clase.value != 0, "Esta clase no existe");
         require(users[msg.sender] >= clase.value, "No tienes creditos suficientes");
         users[msg.sender] -= clase.value;
         getBalance();
@@ -86,8 +87,4 @@ contract gym {
         users[_address] += _value;
         getBalance();
     }
-
 }
-
-// falta validar que el admin no se pueda registrar;
-//
