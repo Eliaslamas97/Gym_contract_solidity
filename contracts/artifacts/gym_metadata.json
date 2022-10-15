@@ -291,11 +291,11 @@
 	},
 	"sources": {
 		"contracts/Gym_Contact.sol": {
-			"keccak256": "0xd1e82a55132a39a12c205a9990424d61e4ad3014a4ee7cd3e31029d47a2f3f53",
+			"keccak256": "0x0e367269db44a4b27061d3ed1b41e6da033a91e5e9d9f0795866f7d48d660a43",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://82006e7cb1a9b754925c2be7623c321a57bf3aed7a2170cea8b5425393d1cafa",
-				"dweb:/ipfs/QmPaRqf2xME9GY1mjCwwyEypKmTJuGjWke9t2QL9LS58Gk"
+				"bzz-raw://ede28417f237d6ecfba274e9d0ffb95227b380069ca0d8051631a52e11e0623c",
+				"dweb:/ipfs/QmSw1jHBUBg4Usrp6Cjj1vJRD6T4QvNsoLbrmrimf157r1"
 			]
 		}
 	},
