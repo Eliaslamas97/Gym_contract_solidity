@@ -22,8 +22,8 @@ Entonces las características y funcionalidades del sistema son:
 
 - El sistema debe tener una función para retornar un address y la cantidad de créditos disponibles. 
 
-*Funciones agregadas por mi:
+Funciones agregadas por mi:
 
--Permitir al Administrador modificar y eliminar clases.
+- Permitir al Administrador modificar y eliminar clases.
 
--Permitir al Usuario solicitar mas creditos, ver clases disponibles y poder transferir creditos a otros usuarios.
+- Permitir al Usuario solicitar mas creditos, ver clases disponibles y poder transferir creditos a otros usuarios.
